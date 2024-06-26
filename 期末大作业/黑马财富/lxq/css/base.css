@@ -1,0 +1,130 @@
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    color: #333;
+}
+
+@font-face {
+    font-family: 'itheima';
+    src: url('../fonts/MiFie-Web-Font.eot') format('embedded-opentype'),
+        url('../fonts/MiFie-Web-Font.woff') format('woff'),
+        url('../fonts/MiFie-Web-Font.ttf') format('truetype'),
+        url('../fonts/MiFie-Web-Font.svg') format('svg');
+}
+
+.heima_icon {
+    font-family: itheima;
+}
+
+/* 顶部通栏 */
+
+.heima_icon_phone::before {
+    content: "\e908";
+}
+
+.heima_icon_tel::before {
+    content: "\e909";
+    font-size: 14px;
+}
+
+/* 产品信息 */
+
+.heima_icon_E903::before {
+    content: "\e903";
+}
+
+.heima_icon_E907::before {
+    content: "\e907";
+}
+
+.heima_icon_E901::before {
+    content: "\e901";
+}
+
+.heima_icon_E900::before {
+    content: "\e900";
+}
+
+.heima_icon_E904::before {
+    content: "\e904";
+}
+
+.heima_icon_E902::before {
+    content: "\e902";
+}
+
+/* 产品 */
+.heima_icon_E915::before {
+    content: "\e915";
+}
+
+/* 预约交易 */
+
+.heima_icon_E906::before {
+    content: "\e906";
+}
+
+.heima_icon_E905::before {
+    content: "\e905";
+}
+
+/* 新闻 */
+.heima_icon_new01::before {
+    content: "\e90e";
+}
+
+.heima_icon_new02::before {
+    content: "\e90f";
+}
+
+.heima_icon_new03::before {
+    content: "\e910";
+}
+
+.heima_icon_new04::before {
+    content: "\e911";
+}
+
+/* 合作伙伴 */
+
+.heima_icon_partner01::before {
+    content: "\e946";
+}
+
+.heima_icon_partner02::before {
+    content: "\e92f";
+}
+
+.heima_icon_partner03::before {
+    content: "\e92e";
+}
+
+.heima_icon_partner04::before {
+    content: "\e92a";
+}
+
+.heima_icon_partner05::before {
+    content: "\e929";
+}
+
+.heima_icon_partner06::before {
+    content: "\e931";
+}
+
+.heima_icon_partner07::before {
+    content: "\e92c";
+}
+
+.heima_icon_partner08::before {
+    content: "\e92b";
+}
+
+.heima_icon_partner09::before {
+    content: "\e92d";
+}
+
+
