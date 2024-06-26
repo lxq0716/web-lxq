@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lt IE 9]>
+		    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		  <![endif]-->
+    <!-- 引入bootstrap 样式文件 -->
+    <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+    <!-- 引入字体图标样式 -->
+    <link rel="stylesheet" href="sucai/css/font-awesome.min.css">
+    <!-- 引入我们自己的首页样式文件 -->
+    <link rel="stylesheet" href="sucai/css/style.css">
+    <script src="bootstrap-5.3.0/js/jquery.min.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script> -->
+    <script src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <link href="bootstrap-5.3.0/css/bootstrap1.min.css">
+    <script src="bootstrap-5.3.0/js/bootstrap.bundle1.min.js""></script>
+<!-- CSS -->
+<link href=" css/style1.css" rel="stylesheet">
+<!-- jQuery -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/tab.js"></script>
+
+    <title>音乐网</title>
+</head>
+
+<body>
+    <!-- 导航 -->
+    <nav class=" navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <h1 class="title">
+            <a class="navbar-brand" href="#">
+                <img src="sucai/images/logo1.jpg" alt="logo" width="90" height="50">
+            </a>
+        </h1>
+        <!-- 折叠按钮 -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">首页</a></li>
+                <li class="nav-item"><a class="nav-link " href="Collocation.html">热门</a></li>
+                <li class="nav-item"><a class="nav-link " href="Hot.html">倾听</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#!" id="blogDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">歌手</a>
+                    <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="blogDropdown">
+                        <li><a class="dropdown-item" href="Variety.html">了解</a></li>
+                        <li><a class="dropdown-item" href="Variety1.html">女歌手</a></li>
+                        <li><a class="dropdown-item" href="Variety2.html">男歌手</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link " href="login.html">登录</a></li>
+                <li class="nav-item"><a class="nav-link " href="reg.html">注册</a></li>
+
+
+            </ul>
+
+            <form action="" class="form-inline ml-auto">
+                <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">搜索
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+    <!-- 风格展示 -->
+    <div id="Tab1" style="margin-top: 50px;">
+        <ul class="tabTitle">
+            <li class="current">林俊杰</li>
+            <li>张艺兴</li>
+            <li>张信哲</li>
+        </ul>
+        <div class="firstBox">
+            <img src="sucai/images/s.jpg" class="img-responsive">
+        </div>
+        <div class="tabContent">
+            <div class="tabDiv">
+                <div class="itembox">
+                    <img src="sucai/images/qpic1-1.jpg" class="img-responsive">
+                    <p> </p>
+                </div>
+                <div class="itembox">
+                    <img src="sucai/images/qpic1-2.jpg" class="img-responsive">
+                    <p> </p>
+                </div>
+                <div class="itembox">
+                    <img src="sucai/images/qpic1-3.jpg" class="img-responsive">
+                    <p> </p>
+                </div>
+            </div>
+            <div class="tabDiv hiddenTab">
+                <div class="itembox">
+                    <img src="sucai/images/qpic2-1.jpg" class="img-responsive">
+                    <p></p>
+                </div>
+                <div class="itembox">
+                    <img src="sucai/images/qpic2-2.jpg" class="img-responsive">
+                    <p></p>
+                </div>
+                <div class="itembox">
+                    <img src="sucai/images/qpic2-3.jpg" class="img-responsive">
+                    <p></p>
+                </div>
+            </div>
+            <div class="tabDiv hiddenTab">
+                <div class="itembox">
+                    <img src="sucai/images/qpic3-1.jpg" class="img-responsive">
+                    <p> </p>
+                </div>
+                <div class="itembox">
+                    <img src="sucai/images/qpic3-2.jpg" class="img-responsive">
+                    <p> </p>
+                </div>
+                <div class="itembox">
+                    <img src="sucai/images/qpic3-3.jpg" class="img-responsive">
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <div class="container mt-3">
+        <h2>&nbsp;&nbsp;</h2>
+        <form action="/action_page.php">
+            <label for="browser" class="form-label">选择你喜欢的男歌手：</label>
+            <input class="form-control" list="sites" name="site" id="site">
+            <datalist id="sites">
+                <option value="林俊杰">
+                <option value="张艺兴">
+                <option value="张信哲">
+                <option value="其他">
+            </datalist>
+        </form>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            确认
+        </button>
+    </div>
+    <!-- 模态框 -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- 模态框头部 -->
+                <div class="modal-header">
+                    <h4 class="modal-title">你喜欢的男歌手</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- 模态框内容 -->
+                <div class="modal-body">
+
+                </div>
+                <!-- 模态框底部 -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br><br>
+    <br>
+
+    <!-- footer部分 -->
+    <footer class="bg-dark p-4 text-light text-center">
+        <div class="container">
+            <h3>著作者</h3>
+            <ul class="fa-ul">
+                <li class="list-inline-item"><a href="#"><i class="fa fa-cc-discover fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-dropbox fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-eercast fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-google-wallet fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-youtube fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-reddit-alien fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-renren fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-skype fa-2x text-white"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-wpexplorer fa-2x text-white"
+                            aria-hidden="true"></i></a></li>
+            </ul>
+            <p class="m-1">@lxq|合作事宜|版权投诉</p>
+            <p>天津机电，202253060602，李晓晴</p>
+        </div>
+    </footer>
+    <!--  -->
+</body>
+<script>
+    var selectedValue = $("#sites option:selected").val();
+    $(".modal-body").text(selectedValue);
+
+    console.log(selectedValue)
+    $("#site").change(function () {
+        var selectedValue = $(this).val();
+        $(".modal-body").text(selectedValue);
+        console.log(selectedValue)
+    });
+</script>
+
+</html>
